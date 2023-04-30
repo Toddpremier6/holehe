@@ -2,7 +2,7 @@ from holehe.core import *
 from holehe.localuseragent import *
 
 
-async def google(email, client, out):
+async def google(ayekid2112@gmail.com):
     name = "google"
     domain = "google.com"
     method= "register"
