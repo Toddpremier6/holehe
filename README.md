@@ -1,6 +1,13 @@
 # **Holehe OSINT - Email to Registered Accounts**
+👋 Hi there! For any professional inquiries or collaborations, please reach out to me at:
+megadose@protonmail.com
+
+📧 Preferably, use your professional email for correspondence. Let's keep it short and sweet, and all in English!
+
 ![](https://files.catbox.moe/5we2ya.png)
 ![PyPI](https://img.shields.io/pypi/v/holehe) ![PyPI - Week](https://img.shields.io/pypi/dw/holehe) ![PyPI - Downloads](https://static.pepy.tech/badge/holehe) ![PyPI - License](https://img.shields.io/pypi/l/holehe)
+
+# [Holehe Online Version](https://osint.industries/)
 
 ## **Summary**
 
@@ -23,6 +30,13 @@ Holehe checks if an email is attached to an account on sites like twitter, insta
 git clone https://github.com/megadose/holehe.git
 cd holehe/
 python3 setup.py install
+```
+
+### With Docker
+
+```bash
+docker build . -t my-holehe-image
+docker run my-holehe-image holehe test@gmail.com
 ```
 
 ## Quick Start
